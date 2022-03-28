@@ -68,9 +68,15 @@ Note:all the queries are coming in request through query paarameters
 there are 7 individual queries and there permutations and combinations possible
 
 search by mentorName
+
 search by mentorLocation
+
 search by mentorId
+
 search by studentId
+
 search by studentName
+
 search by studentLocation
+
 search by smentorId
