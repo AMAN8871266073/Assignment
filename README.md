@@ -52,3 +52,25 @@ matched student data along with their mentors as the nested JSON array shown abo
 
 Case 3: If search parameter matches both, the student as well as mentor data then the result
 should be a list of matched mentor &amp; student data in the nested JSON array shown above.
+
+
+when we are searching document 4 cases we have
+
+case1:when no specific query is passsed in request.(neither on mentor nor on student document (mentor controller from line no:60)
+
+case 2:when query is passed in request on both mentor and student document(mentorController from line no :111)
+
+case 3:when query is passed in request on mentor document only(mentorController:from line no:124)
+
+case4:when query is passed in request on student document only(mentorController from line no:132)
+
+Note:all the queries are coming in request through query paarameters
+there are 7 individual queries and there permutations and combinations possible
+
+search by mentorName
+search by mentorLocation
+search by mentorId
+search by studentId
+search by studentName
+search by studentLocation
+search by smentorId
